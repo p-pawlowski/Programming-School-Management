@@ -1,0 +1,51 @@
+h1, h2 {
+	text-align: center;
+	vertical-align: middle;
+}
+
+#header{
+	background: grey;
+	background-image: url("../image/tlo2.jpg");
+}
+#school{
+	color: white ;
+}
+table {
+	/* border-collapse: collapse;	*/
+	border-collapse: seperate;
+	border: 1px solid grey;
+	width: 100%;
+	table-layout: fixed;
+}
+
+th {
+	font-weight: 100;
+	border-spacing: 10px;
+	border: 1px solid grey;
+	padding: 10px 15px;
+}
+
+td {
+	font-weight: 100;
+	border-spacing: 10px;
+	border: 1px solid grey;
+	padding: 10px 15px;
+}
+
+thead {
+	font-weight: 900;
+	background: grey;
+}
+
+#th1 {
+	border: 1px solid black;
+	font-weight: 700;
+	color: white;
+}
+
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
